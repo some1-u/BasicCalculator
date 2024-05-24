@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+section{
+    width: 25rem;
+    background-color: rgb(84, 82, 82);
+    margin: auto;
+    border-radius: 20px;
+    height: 35rem;
+    padding: 2rem;
+}
+#Calc-Result{
+    color: black;
+    background-color: chartreuse;
+    height: 4rem;
+    margin: 1rem;
+    border-radius: 10px;
+    font-family: "DotGothic16";
+    font-size: 2.5rem;
+    text-align: right;
+    padding: 0 1rem;
+}
+.Calc-Button{
+    width: 5rem;
+    height: 5rem;
+    margin: 0.5rem;
+    border-radius: 10px;
+    font-family: "DotGothic16";
+    font-size: 2rem;
+    border-color: black;
+}
+.Number{
+    background-color: rgb(0, 115, 255);
+}
+.Operation{
+    background-color: rgb(89, 233, 151);
+}
+.Command-Extras{
+    background-color: rgb(188, 234, 80);
+}
+#Clear{
+    background-image: linear-gradient(to right,rgb(255, 0, 0),rgb(255, 63.75, 0));
+}
+#Exponent{
+    background-image: linear-gradient(to right, rgb(255,63.75,0),rgb(255,127.5,0));
+}
+#Root{
+    background-image: linear-gradient(to right, rgb(255,127.5,0),rgb(255,191.25,0));
+}
+#Modulus{
+    background-image: linear-gradient(to right,rgb(255,191.25,0),rgb(255,255,0));
+}
